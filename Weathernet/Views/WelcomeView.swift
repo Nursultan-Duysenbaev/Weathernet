@@ -10,14 +10,14 @@ import CoreLocationUI
 
 struct WelcomeView: View {
     @EnvironmentObject var locationManager: LocationManager
-
+    
     var body: some View {
         VStack {
             VStack{
                 Spacer()
-                    .frame(height:  -30)
+                    .frame(height: 0)
                 
-                AsyncImage(url: URL(string: "https://pixabay.com/get/g7e1bbc7313fa789fd8786778d11984ff926533c9b12863c415612547a1028f06b5658f2ba22b888d23ffe2faaa2074ff472ade647be296677e8778136ccfa80a_1280.png")) { image in
+                AsyncImage(url: URL(string: "https://pixabay.com/get/g90efe6dfc355c6a93b2f876c8fcdfd00da79eb5cdffc0bbbbd2ffe7173a7d6f25138c0f1be769412e2aac861fa3062af74f9f98f9ed9526fd49ef47cbf59b3ad_1280.png")) { image in
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fit)
@@ -37,7 +37,7 @@ struct WelcomeView: View {
             }
             .multilineTextAlignment(.center)
             .padding()
-
+            
             
             
             LocationButton(.shareCurrentLocation) {
