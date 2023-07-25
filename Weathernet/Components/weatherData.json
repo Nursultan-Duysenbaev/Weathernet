@@ -1,0 +1,50 @@
+{
+    "coord":{
+        "lon":59.6103,
+        "lat":42.4531
+        
+    },
+    "weather":[
+        {
+            "id":800,
+            "main":"Clear",
+            "description":"clear sky",
+            "icon":"01d"
+            
+        }
+    ],
+    "base":"stations",
+    "main":{
+        "temp":39.99,
+        "feels_like":37.35,
+        "temp_min":39.99,
+        "temp_max":39.99,
+        "pressure":1009,
+        "humidity":12
+        
+    },
+    "visibility":10000,
+    "wind":{
+        "speed":3.09,
+        "deg":280
+        
+    },
+    "clouds":{
+        "all":0
+        
+    },
+    "dt":1690115044,
+    "sys":{
+        "type":1,
+        "id":9010,
+        "country":"UZ",
+        "sunrise":1690073052,
+        "sunset":1690126290
+        
+    },
+    "timezone":18000,
+    "id":601294,
+    "name":"Nukus",
+    "cod":200
+    
+}
